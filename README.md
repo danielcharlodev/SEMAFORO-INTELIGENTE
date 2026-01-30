@@ -1,4 +1,5 @@
 #SEMAFORO INTELIGENTE
+
 FASE 01 OBJETIVO: O objetivo deste projeto é solucionar os problemas da prefeitura sobre as falhas cometidas em um cruzamento critico na região central da cidade, aonde a causa é um semaforo;
 
 FASE 02 DIAGRAMA: Fizemos 2 diagramas um de sequencia de um de classe, aonde descrevemos a arquitetura utilizada para solucionar o semaforo, utilizando programação e componentes IoT;
