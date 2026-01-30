@@ -1,5 +1,6 @@
 #SEMAFORO INTELIGENTE
 FASE 01 OBJETIVO: O objetivo deste projeto é solucionar os problemas da prefeitura sobre as falhas cometidas em um cruzamento critico na região central da cidade, aonde a causa é um semaforo;
+
 FASE 02 DIAGRAMA: Fizemos 2 diagramas um de sequencia de um de classe, aonde descrevemos a arquitetura utilizada para solucionar o semaforo, utilizando programação e componentes IoT;
 FASE 03 REQUISITOS: 
 *Requisitos Funcionais (RF): dizem o que o sistema deve fazer no dia a dia. Aqui envolve o semáforo ajustar/priorizar o fluxo, respeitar tempos mín/máx, entrar em modo seguro se a IoT falhar, dar prioridade a emergência, funcionar 24h, ter contingência na falta de energia, validar dados dos sensores e permitir configuração manual em manutenção/emergência.
