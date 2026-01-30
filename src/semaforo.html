@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semáforo inteligente</title>
+    <link rel="stylesheet" href="semaforo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <button id="iniciar" class="sn" onclick="iniciar()">Iniciar</button>
+    <section id="semaforo">
+      <div id="vermelho" class="luzes"></div>
+      <div id="amarelo" class="luzes desativado"></div>
+      <div id="verde" class="luzes desativado"></div>
+    </section>
+    <section id="controles">
+      <div class="condicao">
+        <button onclick="chuva()">🌧️</button>
+        <p>Chuva</p>
+        <div id="alertaChuva" class="alerta">A</div>
+      </div>
+      <div class="condicao">
+        <button onclick="transito()">🚗</button>
+        <p>Trânsito alto</p>
+        <div id="alertaTransito" class="alerta">A</div>
+      </div>
+      <div class="condicao">
+        <button onclick="sensor()">🚨</button>
+        <p>Falha no sensor</p>
+        <div id="alertaSensor" class="alerta">A</div>
+      </div>
+      <div class="condicao">
+        <button onclick="servidor()">⚠️</button>
+        <p>Falha no servidor</p>
+        <div id="alertaServidor" class="alerta">A</div>
+      </div>
+    </section>
+
+    <script src="semaforo.js"></script>
+  </body>
+</html>

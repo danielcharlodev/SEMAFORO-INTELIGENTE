@@ -1,0 +1,124 @@
+body,
+html {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  overflow: hidden;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+}
+
+#semaforo {
+  background-color: rgb(109, 109, 109);
+  display: flex;
+  width: 65%;
+  height: 40%;
+  border-radius: 10px;
+  justify-content: space-around;
+  padding: 3%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.35);
+}
+
+.luzes {
+  border-radius: 100%;
+  width: 28%;
+  height: auto;
+  color: transparent;
+}
+
+#amarelo {
+  background-color: rgb(255, 255, 48);
+}
+
+#vermelho {
+  background-color: rgb(255, 48, 48);
+}
+
+#verde {
+  background-color: rgb(48, 255, 48);
+}
+
+.desativado {
+  background-color: rgb(189, 189, 189) !important;
+}
+
+#controles {
+  background-color: rgb(255, 255, 255);
+  padding: 1%;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+}
+
+.sn {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: "SN Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.condicao {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  width: 20%;
+  height: 100%;
+  gap: 10%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.condicao > button {
+  width: 50%;
+  text-align: center;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.45);
+  height: 40%;
+  font-size: xx-large;
+  background-color: white;
+}
+
+.alerta {
+  width: 30%;
+  height: 40%;
+  background-color: rgb(189, 189, 189);
+  border: none;
+  border-radius: 100%;
+  display: flex;
+  color: transparent;
+}
+
+.ativo {
+  background-color: rgb(255, 83, 83) !important;
+}
+
+#iniciar {
+  width: 8%;
+  height: 8%;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.35);
+  font-size: x-large;
+  background-color: white;
+  border: none;
+  border-radius: 7px;
+}
